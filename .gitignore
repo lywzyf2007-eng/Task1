@@ -1,0 +1,27 @@
+# ---------- 编译产物 ----------
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+*.lst
+
+# ---------- CubeMX ----------
+# 注意: *.ioc 要提交(它记录了 CubeMX 的全部配置), 这里只忽略附属元数据
+.mxproject
+
+# ---------- IDE / 编辑器 ----------
+.vscode/
+*.code-workspace
+.idea/
+*.bak
+
+# ---------- 系统文件 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
